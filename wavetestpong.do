@@ -16,4 +16,8 @@ force {KEY[0]} 0 0ns, 1 3ns
 # GO
 force {KEY[1]} 1 0ns, 0 9ns
 
-run 500000ns
+# KEY 2 & 3
+force {KEY[2]} 0 0ns, 1 200ns, 0 20000ns
+force {KEY[3]} 0 0ns, 1 20000ns
+
+run 50000ns
